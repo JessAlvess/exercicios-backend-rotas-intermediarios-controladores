@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "name": "exercicios-backend-rotas-intermediarios-controladores",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./02/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
