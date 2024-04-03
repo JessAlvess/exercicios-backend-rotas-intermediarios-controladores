@@ -1,8 +1,8 @@
 const express = require('express')
-const app = express()
+const rota = express()
 const { get, getPorId } = require('./controladores/imoveis')
 
-app.get('/imoveis', get)
-app.get('/imoveis/:id', getPorId)
+rota.get('/imoveis', get)
+rota.get('/imoveis/:id', getPorId)
 
-module.exports = app
+module.exports = rota
